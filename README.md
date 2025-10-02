@@ -18,7 +18,7 @@
 
 | 🎓 Diplôme                                    | 🏫 Établissement                                   | 📍 Localisation               | 📅 Période                      | 📝 Détails                                                                                      |
 |-----------------------------------------------|--------------------------------------------------|------------------------------|-------------------------------|------------------------------------------------------------------------------------------------|
-| Programme Grande École – IA & Data Science (BAC+5) | Aivancity School for Technology, Business & Society | Paris-Cachan, France           | Depuis sept. 2023 – En cours    | Diplôme Bac+5 visé – reconnu par l’État. Focus : IA appliquée, Machine Learning, MLOps, Big Data, LLMs |
+| Programme Grande École – IA & Data Science (BAC+5) | Aivancity School for Technology, Business & Society | Paris-Villejuif, France           | Depuis sept. 2023 – En cours    | Diplôme Bac+5 visé – reconnu par l’État. Focus : IA appliquée, Machine Learning, MLOps, Big Data, LLMs |
 | Diplôme du Premier Cycle en Technologie        | École Supérieure Privée d'Ingénieurs de Monastir | Monastir, Tunisie             | sept. 2020 – juil. 2022        | Tronc commun en ingénierie : Analyse, Algèbre, Physique, Automatisme, Informatique, Conception mécanique  |
 | Baccalauréat Technologique                      | Lycée Technique National Omar Bongo               | Libreville, Gabon             | sept. 2019 – juil. 2020        | Sciences de l’ingénieur & bases scientifiques appliquées                                        |
 
