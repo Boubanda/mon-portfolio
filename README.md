@@ -4,7 +4,7 @@
 <div align="center">
 
 # 👨‍💻 BOUBANDA LEVI JUNIOR  
-*Étudiant en IA & Data Science @ Aivancity Paris-Cachan*  
+*Étudiant en IA & Data Science @ Aivancity Villejuif *  
 🎯 **À la recherche d’une alternance IA/Data - Septembre 2025**
 
 🚀 Passionné par la **data**, l’**intelligence artificielle** et la **résolution de problèmes métiers** via des solutions innovantes et scalables.  
@@ -130,7 +130,7 @@ En tant que Data Scientist, je m’intéresse à l’usage de la data pour amél
 ## 🌍 Version Anglaise
 
 ### 👨‍🎓 About Me  
-4th-year **AI & Data Science** student at Aivancity Paris-Cachan.  
+4th-year **AI & Data Science** student at Aivancity Paris-Villejuif.  
 Looking for a **12-24 month apprenticeship** as a:
 
 - Data Scientist  
