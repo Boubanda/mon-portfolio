@@ -192,8 +192,8 @@ const Portfolio = () => {
                   GitHub
                 </a>
                 <a 
-                  href="/CV_Levi_BOUBANDA.pdf" 
-                  download="CV_Levi_BOUBANDA.pdf"
+                  href="/CV_Levi_data_analyst.pdf" 
+                  download="CV_Levi_data_analyst.pdf"
                   className="px-6 py-3 bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 rounded-lg font-semibold transition-all shadow-lg hover:shadow-green-500/50 flex items-center gap-2"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
