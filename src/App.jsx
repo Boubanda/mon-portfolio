@@ -6,6 +6,23 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Diagnostic territorial de la protection de l'enfance",
+      period: "2026",
+      company: "Projet Data public — données DREES",
+      description: "J'ai réalisé une analyse territoriale complète des mesures d'aide sociale à l'enfance (ASE) en France. Le projet transforme des données publiques complexes en résultats directement lisibles : disparités géographiques, évolution entre 2015 et 2024, liens entre placement et actions éducatives, puis segmentation des territoires par K-means. L'analyse couvre 103 territoires et 18 régions, avec des contrôles de qualité, des indicateurs statistiques et une restitution cartographique pensée pour l'aide à la décision.",
+      achievements: ["103 territoires analysés", "99 territoires en hausse entre 2015 et 2024", "18 régions comparées", "Typologie territoriale par K-means", "Notebook, données préparées et résultats reproductibles"],
+      impact: ["Repérage immédiat des disparités territoriales", "Visualisations accessibles aux décideurs", "Analyse reproductible à partir de données publiques"],
+      tags: ["Python", "Pandas", "GeoPandas", "Scikit-learn", "K-means", "Matplotlib", "Data Visualisation"],
+      githubUrl: "https://github.com/Boubanda/diagnostic-territorial-protection-enfance",
+      images: [
+        { src: "/projects/ase/carte-regionale.png", alt: "Carte des taux de mesures ASE par région" },
+        { src: "/projects/ase/evolution-territoires.png", alt: "Distribution de l'évolution des mesures ASE entre 2015 et 2024" },
+        { src: "/projects/ase/placement-actions.png", alt: "Comparaison entre placements et actions éducatives" },
+        { src: "/projects/ase/profils-territoriaux.png", alt: "Profils territoriaux issus du clustering K-means" }
+      ],
+      highlight: true
+    },
+    {
       title: "Analyse de Sentiment - Avis Clients Bancaires",
       period: "2025",
       company: "Projet Personnel",
@@ -354,7 +371,7 @@ const Portfolio = () => {
               Projets <span className="text-blue-400">Réalisés</span>
             </h2>
             <p className="text-center text-gray-400 mb-12">
-              10 projets end-to-end démontrant expertise technique et vision business
+              11 projets end-to-end démontrant expertise technique et vision business
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {projects.map((project, index) => (
@@ -374,6 +391,28 @@ const Portfolio = () => {
                   </div>
                   <p className="text-sm text-gray-400 mb-3 italic">{project.company}</p>
                   <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
+
+                  {project.images && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
+                      {project.images.map((image, i) => (
+                        <a
+                          key={image.src}
+                          href={image.src}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="group overflow-hidden rounded-lg border border-slate-700 bg-white"
+                        >
+                          <img
+                            src={image.src}
+                            alt={image.alt}
+                            loading="lazy"
+                            className="w-full h-52 object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+                          />
+                          <span className="sr-only">Ouvrir la visualisation : {image.alt}</span>
+                        </a>
+                      ))}
+                    </div>
+                  )}
                   
                   {project.impact && (
                     <div className="mb-4 p-3 bg-gradient-to-r from-green-500/10 to-teal-500/10 border border-green-500/30 rounded-lg">
@@ -441,7 +480,7 @@ const Portfolio = () => {
                       </span>
                     ))}
                   </div>
-                  <a href="https://github.com/Boubanda" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors">
+                  <a href={project.githubUrl || "https://github.com/Boubanda"} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors">
                     <Github size={16} />
                     Voir sur GitHub
                   </a>
