@@ -26,7 +26,7 @@
 
 ## 👨‍🎓 Profil
 
-🎓 Étudiant en 4e année à **Aivancity** (IA & Data Science)  
+🎓 Étudiant en 5e année à **Aivancity** (IA & Data Science)  
 🔍 Spécialisé en :
 
 - **Data Science**
