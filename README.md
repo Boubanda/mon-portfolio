@@ -8,7 +8,7 @@
 🎯 **À la recherche d’une alternance IA/Data - Septembre 2025**
 
 🚀 Passionné par la **data**, l’**intelligence artificielle** et la **résolution de problèmes métiers** via des solutions innovantes et scalables.  
-🎓 Actuellement en **Bac+4**, je combine une solide base scientifique, une expertise en modélisation IA, et une capacité à **rendre la donnée exploitable et décisionnelle**.
+🎓 Actuellement en **Bac+5**, je combine une solide base scientifique, une expertise en modélisation IA, et une capacité à **rendre la donnée exploitable et décisionnelle**.
 
 </div>
 
